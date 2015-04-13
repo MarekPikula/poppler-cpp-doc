@@ -1,5 +1,5 @@
 #!/bin/bash
-BASEDIR=" /var/cache/doc-gen/poppler-cpp-doc"
+BASEDIR="/var/cache/doc-gen/MarPiRK/poppler-cpp-doc"
 cd $BASEDIR/doc-repo/
 find . ! -name .git ! -name README.md ! -name update-script.sh -maxdepth 1 -type f -delete
 cd $BASEDIR/poppler-upstream/
