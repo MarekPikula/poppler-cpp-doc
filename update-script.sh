@@ -9,6 +9,7 @@ rm -fr APIDOCS-html
 doxygen Doxyfile
 cp -fr APIDOCS-html/* $BASEDIR/doc-repo/
 cd $BASEDIR/doc-repo/
+git pull
 git add .
 git commit -m "`date +%Y-%m-%d`"
 git push
